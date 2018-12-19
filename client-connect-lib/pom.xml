@@ -14,13 +14,6 @@
 		<build.number>Unknown</build.number>
 	</properties>
 	
-	<repositories>
-		<repository>
-			<id>lilypad</id>
-			<url>http://ci.lilypadmc.org/plugin/repository/everything</url>
-		</repository>
-	</repositories>
-	
 	<dependencies>
 		<dependency>
 			<groupId>lilypad.client.connect</groupId>
@@ -48,7 +41,7 @@
 			</plugin>
 			<plugin>
 				<artifactId>maven-assembly-plugin</artifactId>
-				<version>2.6</version>
+				<version>2.2</version>
 				<executions>
 					<execution>
 						<id>make-assembly</id>
@@ -57,8 +50,6 @@
 							<goal>single</goal>
 						</goals>
 						<configuration>
-							<source>1.6</source>
-							<target>1.6</target>
 							<appendAssemblyId>false</appendAssemblyId>
 							<descriptorRefs>
 								<descriptorRef>jar-with-dependencies</descriptorRef>

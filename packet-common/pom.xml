@@ -61,8 +61,6 @@
 							<goal>single</goal>
 						</goals>
 						<configuration>
-							<source>1.6</source>
-							<target>1.6</target>
 							<descriptorRefs>
 								<descriptorRef>jar-with-dependencies</descriptorRef>
 							</descriptorRefs>
